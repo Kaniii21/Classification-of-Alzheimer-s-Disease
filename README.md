@@ -1,8 +1,6 @@
-# Classification-of-Alzheimer-s-Disease
-Conducted end-to-end machine learning project using clinical dataset (alzheimers_disease_data.csv)
-
 # Alzheimer's Disease Classification Project
 
+Conducted end-to-end machine learning project using clinical dataset (alzheimers_disease_data.csv)
 ## Overview
 This project implements a machine learning model to predict Alzheimer's disease diagnosis based on medical and lifestyle data. The analysis includes comprehensive exploratory data analysis (EDA), data preprocessing, model building, and visualization of results using Python.
 
