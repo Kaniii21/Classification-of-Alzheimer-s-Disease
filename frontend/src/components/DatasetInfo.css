@@ -1,0 +1,143 @@
+.dataset-info {
+  padding: 20px 0;
+}
+
+.dataset-intro {
+  color: var(--medium-gray);
+  max-width: 800px;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.dataset-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.dataset-table tr td {
+  padding: 10px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.dataset-table tr:last-child td {
+  border-bottom: none;
+}
+
+.dataset-table tr td:first-child {
+  font-weight: 600;
+  color: var(--dark-gray);
+  width: 30%;
+}
+
+.features-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 15px;
+}
+
+.feature-item {
+  padding: 15px;
+  border-radius: 4px;
+  background-color: rgba(63, 81, 181, 0.05);
+  transition: all 0.3s ease;
+}
+
+.feature-item:hover {
+  background-color: rgba(63, 81, 181, 0.1);
+  transform: translateY(-2px);
+}
+
+.feature-name {
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-bottom: 5px;
+}
+
+.feature-description {
+  font-size: 0.9rem;
+  color: var(--medium-gray);
+}
+
+.processing-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.step {
+  display: flex;
+  gap: 15px;
+}
+
+.step-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 50%;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.step-description {
+  flex: 1;
+}
+
+.step-description h4 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  color: var(--dark-gray);
+}
+
+.step-description p {
+  margin: 0;
+  color: var(--medium-gray);
+  line-height: 1.5;
+}
+
+.references {
+  color: var(--medium-gray);
+  line-height: 1.6;
+}
+
+.references p {
+  margin-bottom: 15px;
+}
+
+.references p:last-child {
+  margin-bottom: 0;
+}
+
+.references a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.references a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .dataset-table tr td {
+    display: block;
+    padding: 5px 10px;
+  }
+  
+  .dataset-table tr td:first-child {
+    width: 100%;
+    padding-top: 15px;
+    border-bottom: none;
+  }
+  
+  .dataset-table tr td:last-child {
+    padding-bottom: 15px;
+  }
+  
+  .features-list {
+    grid-template-columns: 1fr;
+  }
+} 

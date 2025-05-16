@@ -1,0 +1,94 @@
+.model-comparison-page {
+  padding: 20px 0;
+}
+
+.model-intro {
+  color: var(--medium-gray);
+  max-width: 800px;
+  margin-bottom: 30px;
+}
+
+.metric-selector {
+  margin-bottom: 20px;
+}
+
+.metric-selector p {
+  margin-bottom: 10px;
+  color: var(--dark-gray);
+  font-weight: 500;
+}
+
+.metric-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.metric-button {
+  padding: 8px 15px;
+  background-color: #f5f5f5;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.metric-button:hover {
+  background-color: #e0e0e0;
+}
+
+.metric-button.active {
+  background-color: var(--primary-color);
+  color: white;
+  border-color: var(--primary-color);
+}
+
+.model-summary-chart {
+  height: 400px;
+  padding: 20px;
+}
+
+.model-details {
+  margin-top: 30px;
+}
+
+.model-description-item {
+  margin-bottom: 25px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.model-description-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.model-description-item h4 {
+  color: var(--primary-color);
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.model-description-item p {
+  color: var(--medium-gray);
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.model-description-item p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .metric-buttons {
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .metric-button {
+    width: 100%;
+    text-align: center;
+  }
+} 
