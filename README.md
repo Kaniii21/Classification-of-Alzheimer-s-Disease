@@ -2,8 +2,7 @@
 *Technical Analysis Report*
 
 ## Executive Summary
-This report details a machine learning project focused on classifying and predicting Alzheimer's Disease diagnoses using medical and lifestyle data. The analysis encompasses data preprocessing, exploratory analysis, and the implementation of various classification models.
-
+This report details a machine learning project focused on classifying and predicting Alzheimer's Disease diagnoses using medical and lifestyle data. The analysis encompasses data preprocessing, exploratory analysis, and the implementation of various classification models. demo : https://classification-of-alzheimer-s-disea.vercel.app/
 ## Table of Contents
 1. [Dataset Overview](#dataset-overview)
 2. [Data Preprocessing](#data-preprocessing)
